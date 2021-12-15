@@ -1,0 +1,1549 @@
+*{padding: 0; margin: 0;}
+/* Главная страница */
+body {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Навигация */
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+    height: 8vh;
+}
+.link {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2%;
+    font-size: 20px;
+    color: white;
+}
+
+/* Основная часть */
+.main-face {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-3cY1BJXreF0W4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-Yi5W1IKMMUyFvIU.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face1 .album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px white;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.main-face1 .album:hover {
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+.main-face2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-AAph1VMa7JBsrFg9.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face2 .album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px white;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.main-face2 .album:hover {
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+.main-face3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background: url(img/imgonline-com-ua-Blur-dkuVxDpsFmhx.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.main-face3 .album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px white;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.main-face3 .album:hover {
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+.main-text {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.album {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px red;
+    padding: 20px 70px;
+    margin-top: 1%;
+    
+    font-size: 36px;
+    color: white;
+    transition: 0.5s;
+}
+.album:hover {
+    background-color: red;
+    color: white;
+    border: solid 3px white;
+    transition: 0.5s;
+}
+
+/* Афиша */
+.poster {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+}
+.poster-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.date {
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.chislo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+.mesyac-den-nedeli {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 10%;
+    font-size: 25px;
+    color: rgb(110, 110, 110);
+    width: 190px;
+}
+.place {
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-self: center;
+    color: rgb(110, 110, 110);
+}
+.buy-ticket {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: solid 3px white;
+    transition: .5s;
+}
+.buy-ticket:hover {
+    transition: .5s;
+    background-color: white;
+    color: black;
+}
+
+
+/* Магазин */
+.store {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 40vh;
+    color: white;
+}
+.sub-store {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.futbolki {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    cursor: pointer;
+}
+.pluse {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    font-size: 40px;
+}
+.store-block {
+    display: none;
+}
+.block {
+    color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plus1 {
+    font-size: 80px;
+}
+hr {
+    width: 100%;
+}
+
+.futbolki:hover .store-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+}
+
+
+/* Дискография */
+.discography {
+    height: 92vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.discography-line1 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.discography-line2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.discography-line3 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.left-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    width: 50%;
+}
+
+.album_title-date {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album_title {
+    font-size: 25px;
+    color: rgb(172, 172, 172);
+}
+
+.album_date {
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
+
+.more {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 3px black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: solid 3px white;
+    transition: .5s;
+}
+.more:hover {
+    transition: .5s;
+    background-color: white;
+    color: black;
+}
+
+/* Альбом Хлам */
+.hlam {
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around
+}
+.album1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    width: 50%;
+}
+.album-img {
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Hlam.jpg);
+    background-size: cover;  
+}
+.left-part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 160px;
+    width:50%;
+}
+.album-title {
+    font-size: 40px;
+    color: rgb(146, 146, 146);
+}
+.album-date {
+    font-size: 30px;
+    text-align: start;
+    color: rgb(109, 109, 109);
+}
+.album_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(109, 109, 109);
+    font-size: 20px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.spotify {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+}
+.applemusic {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(201, 201, 201);
+    font-size: 20px;
+}
+
+/* Альбом Правда */
+.pravda {
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around
+}
+.pravda .album1 {
+    width: 75%;
+}
+.pravda .album-img {
+    height: 150px;
+    width: 150px;
+    background-image: url(img/Pravda.jpg);
+    background-size: cover;  
+}
+.pravda .left-part1 {
+    width: 500px;
+    display: flex;
+    text-align: start;
+}
+
+
+/* Альбом Мало */
+.malo {
+    background-color: black;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around
+}
+.malo .album-img {
+    height: 150px;
+    width: 150px;
+    background-image: url(img/malo.jpg);
+    background-size: cover;  
+}
+.malo .left-part1  {
+    width: 250px;
+}
+
+/* Офомрление заказа */
+.ordering {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+}
+.ordering-title {
+    color: white;
+    font-size: 40px;
+}
+
+/* Адрес */
+.adres > .title {
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+.adres {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.adres > .place {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+}
+.adres > .place > input {
+    font-size: 20px;
+}
+.region {
+    height: 25px;
+    width: 280px;
+}
+.city {
+    height: 25px;
+    width: 280px;
+}
+.street {
+    height: 25px;
+    width: 200px;
+}
+.home {
+    height: 25px;
+    width: 100px;
+}
+.apartment {
+    height: 25px;
+}
+
+/* Данные покупателя */
+.customer-date > .title {
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+.customer-date {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.customer-date > .place {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+}
+.customer-date > .place > input {
+    font-size: 20px;
+}
+.name {
+    height: 25px;
+    width: 280px;
+}
+.surname {
+    height: 25px;
+    width: 280px;
+}
+.phone {
+    height: 25px;
+    width: 200px;
+}
+
+/* Данные карты */
+.card-date > .title {
+    color: rgb(182, 182, 182);
+    font-size: 25px;
+    display: flex;
+    align-self: flex-start;
+}
+.card-date {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.card-date > .place {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 150px;
+    align-items: center;
+}
+.card-date > .place > input {
+    font-size: 20px;
+}
+.card-number {
+    height: 25px;
+    width: 600px;
+}
+.owner {
+    height: 25px;
+    width: 280px;
+}
+.validity {
+    height: 25px;
+    width: 280px;
+}
+.cvc {
+    height: 25px;
+    width: 100px;
+}
+
+/* Оформить */
+.ordering > a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 240px;
+    background-color: black;
+    border: solid 3px white;
+    border-radius: 15px;
+    transition: .5s;
+}
+.ordering > a:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    transition: .5s;
+}
+
+
+
+
+/* Слайдер */
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+/* Конкретный слайдер */
+.slider{
+    position: relative;
+}
+.slider .slick-arrow {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+.slider .slick-arrow.slick-prev {
+    background: url(img/arrowleft.png) 0 0 / 100% no-repeat;
+    cursor: pointer;
+    border: 0;
+    left: 0;
+    font-size: 0;
+}
+.slider .slick-arrow.slick-next {
+    background: url(img/arrowright.png) 0 0 / 100% no-repeat;
+    cursor: pointer;
+    border: 0;
+    right: 0;
+    font-size: 0;
+}
+
+
+/* Футер */
+footer {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+    background-color: rgb(27, 27, 27);
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+}
+
+
+/* АДАПТИВ */
+
+@media (max-width:1080px) {
+    .link {
+        width: 50%;
+    }
+}
+
+@media (max-width:850px) {
+    .link {
+        width: 60%;
+    }
+}
+
+@media (max-width:700px) {
+    .link {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:680px) {
+
+    /* Адрес */
+    .adres > .title {
+        color: rgb(182, 182, 182);
+        font-size: 25px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .adres {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .adres > .place {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100px;
+        align-items: center;
+    }
+    .adres > .place > input {
+        font-size: 20px;
+    }
+    .region {
+        height: 25px;
+        width: 230px;
+    }
+    .city {
+        height: 25px;
+        width: 230px;
+    }
+    .street {
+        height: 25px;
+        width: 220px;
+    }
+    .home {
+        height: 25px;
+        width: 100px;
+    }
+    .apartment {
+        height: 25px;
+        width: 100px;
+    }
+
+    /* Данные покупателя */
+    .customer-date > .title {
+        color: rgb(182, 182, 182);
+        font-size: 25px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .customer-date {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-date > .place {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100px;
+        align-items: center;
+    }
+    .customer-date > .place > input {
+        font-size: 20px;
+    }
+    .name {
+        height: 25px;
+        width: 230px;
+    }
+    .surname {
+        height: 25px;
+        width: 230px;
+    }
+    .phone {
+        height: 25px;
+        width: 500px;
+    }
+
+
+    /* Данные карты */
+    .card-date > .title {
+        color: rgb(182, 182, 182);
+        font-size: 25px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .card-date {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-date > .place {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 150px;
+        align-items: center;
+    }
+    .card-date > .place > input {
+        font-size: 20px;
+    }
+    .card-number {
+        height: 25px;
+        width: 600px;
+    }
+    .owner {
+        height: 25px;
+        width: 230px;
+    }
+    .validity {
+        height: 25px;
+        width: 230px;
+    }
+    .cvc {
+        height: 25px;
+        width: 100px;
+    }
+
+    /* Оформить */
+    .ordering > a {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 240px;
+        background-color: black;
+        border: solid 3px white;
+        border-radius: 15px;
+        transition: .5s;
+    }
+}
+
+@media (max-width:600px) {
+    .link {
+        width: 80%;
+    }
+}
+.button {
+    display: none;
+}
+@media (max-width:540px) {
+    nav {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    .main-face {
+        height: 100vh;
+    }
+    .main-face1{
+        height: 100vh;
+    }
+    .main-face2 {
+        height: 100vh;
+    }
+    .main-face3 {
+        height: 100vh;
+    }
+    .button {
+        display: flex;
+        justify-self: start;
+        align-self: flex-end;
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 0;
+        margin-top: -15px;
+    }
+    
+
+    
+    .button:hover .nav {
+        height: 230px;
+        width: 180px;
+        background-color: rgb(27, 27, 27);
+        display: flex;
+        justify-content: center;
+    }
+    .button:hover .link {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .button:hover .knopka {
+        display: none;
+    } 
+
+
+    .ordering {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+    }
+    .ordering-title {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    /* Магазин */
+    .store {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        /* height: 150vh; */
+        color: white;
+    }
+    .sub-store {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .futbolki {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        cursor: pointer;
+    }
+    .futbolki hr {
+        width: 80%;
+        display: flex;
+        align-self: center;
+    }
+    .pluse {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 20%;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .store-block {
+        display: none;
+    }
+    .block {
+        color: white;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plus1 {
+        font-size: 80px;
+    }
+    hr {
+        width: 100%;
+    }
+
+    .futbolki:hover .store-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;    
+    }
+
+
+
+    /* Афиша */
+    .poster {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: black;
+    }
+    .poster-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .date {
+        margin-left: 1%;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .chislo {
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    .mesyac-den-nedeli {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-left: 10%;
+        font-size: 13px;
+        color: rgb(110, 110, 110);
+        width: 20%;
+    }
+    .place {
+        color: white;
+        font-size: 13px;
+        width: 28%;
+        display: flex;
+        text-align: center;
+        justify-self: center;
+        color: rgb(110, 110, 110);
+        flex-wrap: wrap;
+    }
+    .buy-ticket {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100px;
+        height: 15px;
+        border-radius: 15px;
+        border: solid 3px black;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 1%;
+        background-color: black;
+        font-size: 10px;
+        color: white;
+        border: solid 2px white;
+        transition: .5s;
+    }
+    .buy-ticket:hover {
+        transition: .5s;
+        background-color: white;
+        color: black;
+    }
+
+
+    /* Альбом Хлам */
+    .hlam {
+        background-color: black;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around
+    }
+    .album1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10%;
+    }
+    .album-img {
+        height: 90px;
+        width: 90px;
+        background-image: url(img/Hlam.jpg);
+        background-size: cover;
+    }
+    .left-part1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding-left: 10%;
+        height: 100%;
+    }
+    .album-title {
+        font-size: 25px;
+        color: rgb(146, 146, 146);
+    }
+    .album-date {
+        font-size: 15px;
+        text-align: start;
+        color: rgb(109, 109, 109);
+    }
+    .album_list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(109, 109, 109);
+        font-size: 15px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+    }
+    .spotify {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(201, 201, 201);
+        font-size: 12px;
+    }
+    .applemusic {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(201, 201, 201);
+        font-size: 12px;
+    }
+
+    /* Альбом Правда */
+    .pravda {
+        background-color: black;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around
+    }
+    .pravda .left-part1 {
+        width: 30%;
+        display: flex;
+        text-align: start;
+    }
+    .pravda .album1 .album-img {
+        background-image: url(img/Pravda.jpg);
+    }
+    .pravda .album_list {
+        font-size: 14px;
+    }
+    /* Альбом Мало */
+    .malo {
+        background-color: black;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around
+    }
+    .malo .left-part1  {
+        width: 40%;
+    }
+    .malo .album1 .album-img {
+        background-image: url(img/Malo.jpg);
+    }
+
+
+    /* Адрес */
+    .adres > .title {
+        color: rgb(182, 182, 182);
+        font-size: 25px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .adres {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .adres > .place {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100px;
+        align-items: center;
+    }
+    .adres > .place > input {
+        font-size: 15px;
+    }
+    .region {
+        height: 20px;
+        width: 80%;
+    }
+    .city {
+        height: 20px;
+        width: 80%;
+    }
+    .street {
+        height: 20px;
+        width: 80%;
+    }
+    .home {
+        height: 20px;
+        width: 80%;
+    }
+    .apartment {
+        height: 20px;
+        width: 80%;
+    }
+
+    /* Данные покупателя */
+    .customer-date > .title {
+        color: rgb(182, 182, 182);
+        font-size: 25px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .customer-date {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-date > .place {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100px;
+        width: 100%;
+        align-items: center;
+    }
+    .customer-date > .place > input {
+        font-size: 15px;
+    }
+    .name {
+        height: 20px;
+        width: 80%;
+    }
+    .surname {
+        height: 20px;
+        width: 80%;
+    }
+    .phone {
+        height: 20px;
+        width: 80%;
+    }
+
+    /* Данные карты */
+    .card-date > .title {
+        color: rgb(182, 182, 182);
+        font-size: 25px;
+        display: flex;
+        align-self: flex-start;
+    }
+    .card-date {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-date > .place {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 100%;
+        align-items: center;
+    }
+    .card-date > .place > input {
+        font-size: 15px;
+    }
+    .card-number {
+        height: 20px;
+        width: 80%;
+    }
+    .owner {
+        height: 20px;
+        width: 80%;
+    }
+    .validity {
+        height: 20px;
+        width: 80%;
+    }
+    .cvc {
+        height: 20px;
+        width: 80%;
+    }
+
+
+
+    @media (max-height:860px) {
+        /* Правда */
+        .album1 {
+            display: none;
+        }
+        .pravda .album_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+        }
+        .pravda {
+            background-image: url(img/Pravda.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        /* Хлам */
+        .hlam {
+            background-image: url(img/Hlam.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .hlam .album_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+        }
+        /* Мало */
+        .malo {
+            background-image: url(img/Malo.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .malo .album_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-size: 30px;    
+        }
+    }
+
+
+}
+
+@media (max-width:410px) {
+    .place {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    /* Дискография */
+    .discography {
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .discography-line1 {
+        background: url(img/Hlam.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25%;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .discography-line2 {
+        background: url(img/Pravda.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25%;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    .discography-line3 {
+        background: url(img/Malo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 25%;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+
+    .left-part {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        color: rgb(110, 110, 110);
+        width: 50%;
+    }
+    .left-part > img {
+        display: none;
+    }
+    .album_title-date {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .album_title {
+        font-size: 25px;
+        color: white;
+    }
+
+    .album_date {
+        font-size: 20px;
+        color: white;
+    }
+
+    .more {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 200px;
+        height: 30px;
+        border-radius: 15px;
+        border: solid 3px black;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 1%;
+        font-size: 20px;
+        color: white;
+        border: solid 3px white;
+        transition: .5s;
+    }
+    .more:hover {
+        transition: .5s;
+        background-color: black;
+        color: white;
+        border: solid 3px white;
+    }
+}
+
+/* @media (max-width: 500px) {
+    .store {
+        height: 170vh;
+    }
+}
+@media (max-height: 760px) {
+    .store {
+        height: 180vh;
+    }
+}
+@media (max-height: 715px) {
+    .store {
+        height: 200vh;
+    }
+} */
+
+@media (max-width: 350px) {
+    .main-text {
+        font-size: 22px;
+    }
+    .main-face .album {
+        padding: 0;
+        font-size: 20px;
+    }
+    .main-face1 .album {
+        padding: 0;
+        font-size: 20px;
+    }
+    .main-face2 .album {
+        padding: 0;
+        font-size: 20px;
+    }
+    .main-face3 .album {
+        padding: 0;
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .album_title {
+        font-size: 18px;
+    }
+    .album_date {
+        font-size: 15px;
+    }
+}
+@media (max-height: 580px) {
+    .pravda .album_list{
+        font-size: 15px;
+    }
+    .hlam .album_list{
+        font-size: 15px;
+    }
+    .malo .album_list{
+        font-size: 22px;
+    }
+}
